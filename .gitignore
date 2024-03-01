@@ -1,0 +1,11 @@
+# Игнорирование файлов CMakeLists.txt                                                                │
+CMakeLists.txt                                                                                       │
+                                                                                                     │
+# Игнорирование содержимого каталога ./build                                                         │
+/build/                                                                                              │
+                                                                                                     │
+# Отслеживание только файлов с расширениями .cpp, .hpp и .txt                                        │
+!*.cpp                                                                                               │
+!*.hpp                                                                                               │
+!*.txt                                                                                               │
+urtoach@urtoach-HKD-WXX:~/Desktop/proc_model
